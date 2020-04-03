@@ -2,17 +2,7 @@ def find_min_in_nested_arrays(src)
   #p src
   # src will be an array of arrays of integers
   # Produce a new Array that contains the smallest number of each of the nested arrays
-  new_array = []
-  i = 0
-  while i < src.count do
-    inner_i = 0
-    while inner_i < src[i].count do
-      minimum = inner_i
-      new_array << minimum
-      inner_i += 1
-    end
-    i += 1
-  end
-new_array
+  lowest_array
 end
 
+#lowest_arrays = array_of_arrays.map {|a| a.min}
